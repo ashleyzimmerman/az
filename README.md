@@ -1,9 +1,8 @@
-<html>
-<head>
-<body>
-<h1> I am a third generation Floridian, but I live here!</h1>
+# Ashley Zimmerman
+![](img/6924.jpg)
 
 
-</body>
-<head/>
-<html/>
+Fun Facts
++ 3rd Generation Floridian
++ Now living in Chattanooga
++ Enjoys traveling and horseback riding
