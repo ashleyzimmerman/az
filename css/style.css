@@ -1,99 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <title>Ashley Zimmerman | Blog</title>
-  <style>
-  html {
-    box-sizing: border-box;
-  }
-  * {
-  border: 1px solid red;
-}
-body{
-  background-color:light-blue;
-  color: black;
-  font font-family: times;
-  }
-
-div {
-    padding: 10px;
-}
-div {
-    padding-top: 5px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-}
-div {
-    padding: 5px 10px 5px 10px;
-}
-div {
-    margin: 30px;
-}
-div {
-    box-sizing: border-box;
-    width: 300px;
-    height: 200px;
-}
-.container {
-  max-width: : 900px;
-  margin: 0;
-
-}
-.highlighter{
-  background-color: : yellow;
-}
-.navigation{
-  list-style: none;
-  display:inline;
-  color: light-blue;
-}
-.navigation li{
-  list-style: none;
-  display:inline;
-
-}
-#blog-footer{
-  background-color: grey;
-}
-</style>
-
-</head>
-
-<body>
-  <div class="container"
-
-
-    <div class ="navigation" ul li {
-      list-style : none;
-      display : inline;
-    }
-    </div>
-    <div class ="header"
-    </div>
-    <div class ="content-area"
-    </div>
-    <h1> Just another wordpress title</h1>
-    <p>
-    I aim to create solutions and experiences that solve problems. Working as a team I strive to understand people’s stories and creative ideas. I focus on the hands-on process from beginning to end of a design.
-    </p>
-  ​</div>
-  <div class ="footer"
-  </div>
-
-
-
-</body>
-</html>
 body {
   margin: 0;
   padding: 0;
   font-family: helvetica;
-  background-color: #F7F8DF;
+  background-color: #F0FFFF;
 }
 
 /* Navbar */
@@ -122,12 +31,12 @@ nav li {
 nav a {
   text-decoration: none;
   letter-spacing: 2px;
-  color: #1B1B1B;
+  color: #A9A9A9;
 }
 
 nav li:hover {
-  color: #FF6D24;
-  border: 1px solid #FF6D24;
+  color: #6495ED;
+  border: 1px solid #FF4500;
   border-radius: 25px;
   transition: color .25s linear;
 }
@@ -146,7 +55,7 @@ nav li:hover {
     border: 1px solid transparent;
   }
   nav a {
-    font-size: 12px;
+    font-size: 16px;
     text-decoration: none;
     letter-spacing: 1px;
   }
@@ -181,7 +90,7 @@ header {
   margin: 50px auto;
   /* background: url('background1.jpg') no-repeat center center fixed;
   background-size: auto; */
-  color: #1B1B1B;
+  color: #FF4500;
 }
 
 .name h1 {
@@ -251,7 +160,7 @@ header {
 
 footer {
   display: flex;
-  background-color: #1b1b1b;
+  background-color: #FF4500;
   align-items: center;
   justify-content: center;
   height: 100px;
@@ -263,8 +172,8 @@ footer a {
 
 .button {
   text-decoration: none;
-  color: #E2DED3;
-  border: 1px solid #E2DED3;
+  color: #6495ED;
+  border: 1px solid #6495ED;
   padding: 8px;
   border-radius: 15px;
   margin-top: 15px;
@@ -296,10 +205,10 @@ footer a {
   flex-direction: column;
   width: 300px;
   padding: 10px;
-  border: 1px solid #FF6D24;
+  border: 1px solid #A9A9A9;
   border-radius: 3px;
   margin: 25px auto auto;
-  background-color: #E2DED3;
+  background-color: #F0FFFF;
   box-shadow: 1px 1px 15px lightgray;
 }
 
