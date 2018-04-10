@@ -8,13 +8,17 @@ body {
   border-radius: 25px;
   width: 44.44em;
   height: 30em;
-  border: 10px darkBlue solid;
+  border: 10px Blue solid;
 }
 
 /* Navbar */
 
 nav {
-  display: flex;
+  width: 102%;
+  height: 60px;
+  background-color: #FEFEFE;
+  margin-top: -8px;
+  margin-left: -8px;
   justify-content: center;
   align-items: center;
 }
@@ -29,7 +33,7 @@ nav ul {
 nav li {
   display: inline-block;
   margin: 0 20px auto;
-  font-weight: lighter;
+  font-weight: 200;
   padding: 5px 5px;
   border: 1px solid transparent;
 }
@@ -100,7 +104,7 @@ header {
 }
 
 .name h1 {
-  font-weight: lighter;
+  font-weight: 200;
   letter-spacing: 4px;
   margin: 0;
   text-shadow: 2px 2px 5px white;
