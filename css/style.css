@@ -42,7 +42,7 @@ nav li {
 nav a {
   text-decoration: none;
   letter-spacing: 2px;
-  color: #A9A9A9;
+  color: #FF4500;
 }
 
 
@@ -71,7 +71,8 @@ nav li:hover {
     text-decoration: none;
     letter-spacing: 1px;
   }
-
+  h1 {
+    background-color: FF4500;
 
 
 
@@ -83,7 +84,7 @@ display: block;
   max-width: 960px;
   margin: 0 auto;
 }
-}
+
 
 .selected {
   color: #FF6D24;
@@ -137,7 +138,7 @@ header {
   width: 250px;
   overflow: hidden;
   border: 2px solid #FF6D24;
-  border-radius: 50%;
+  border-radius: 30%;
   left: 0;
   right: 0;
   top: 250px;
