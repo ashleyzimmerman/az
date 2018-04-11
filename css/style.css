@@ -8,7 +8,7 @@ body {
   border-radius: 25px;
   width: 44.44em;
   height: 30em;
-  border: 10px black solid;
+  border: 5px black solid;
 }
 
 /* Navbar */
@@ -22,6 +22,7 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
 
 nav ul {
   list-style: none;
@@ -43,6 +44,15 @@ nav a {
   letter-spacing: 2px;
   color: #A9A9A9;
 }
+.navigation a:hover + .dropdown {
+  display: block; // shows the any dropdown that is a direct sibling of a hovered anchor tag in the navigation bar
+}
+.dropdown {
+  display: none; // this hides the dropdown menu by default
+}
+.dropdown:hover {
+display: block;
+}
 
 nav li:hover {
   color: #6495ED;
@@ -60,7 +70,7 @@ nav li:hover {
   }
   nav li {
     display: inline-block;
-    font-weight: lighter;
+    font-weight: 200;
     margin: 0 5px auto;
     border: 1px solid transparent;
   }
@@ -69,6 +79,10 @@ nav li:hover {
     text-decoration: none;
     letter-spacing: 1px;
   }
+  .container {
+  max-width: 960px;
+  margin: 0 auto;
+}
 }
 
 .selected {
@@ -107,7 +121,7 @@ header {
   font-weight: 200;
   letter-spacing: 4px;
   margin: 0;
-  text-shadow: 2px 2px 5px white;
+  
 }
 
 .name p {
@@ -219,11 +233,11 @@ footer a {
   border-radius: 3px;
   margin: 25px auto auto;
   background-color: #F0FFFF;
-  box-shadow: 1px 1px 15px lightgray;
+  box-shadow: 1px 1px 15px black;
 }
 
 .blog-post h2 {
-  font-weight: lighter;
+  font-weight: 200;
   letter-spacing: 3px;
   margin-bottom: 0;
 }
