@@ -44,15 +44,7 @@ nav a {
   letter-spacing: 2px;
   color: #A9A9A9;
 }
-.navigation a:hover + .dropdown {
-  display: block; // shows the any dropdown that is a direct sibling of a hovered anchor tag in the navigation bar
-}
-.dropdown {
-  display: none; // this hides the dropdown menu by default
-}
-.dropdown:hover {
-display: block;
-}
+
 
 nav li:hover {
   color: #6495ED;
@@ -79,6 +71,70 @@ nav li:hover {
     text-decoration: none;
     letter-spacing: 1px;
   }
+  .navigation a:hover + .dropdown {
+    display: block; // shows the any dropdown that is a direct sibling of a hovered anchor tag in the navigation bar
+  }
+  .dropdown {
+    display: none; // this hides the dropdown menu by default
+  }
+  .dropdown:hover {
+  display: block;
+  }
+  .navigation > ul > li {
+  position: relative; // required for absolute positioning
+  display: inline;
+  list-style: none;
+}
+
+.navigation .dropdown {
+  position: absolute; // tracks nearest relatively-positioned ancestor
+  top: 1em; // positions according to the ancestor
+  right: 0;
+  display: none;
+}
+
+.navigation a:hover + .dropdown {
+  display: block;
+}
+.dropdown:hover {
+display: block;
+}
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 100vw;
+}
+.navigation > ul > li {
+  position: relative;
+  display: inline;
+  list-style: none;
+}
+
+.navigation .dropdown {
+  position: absolute;
+  top: 1em;
+  right: 0;
+  display: none;
+}
+
+.navigation a:hover + .dropdown {
+  display: block;
+}
+
+.dropdown:hover {
+display: block;
+}
+
+.navigation > ul.container {
+  //these styles will extend the styles already contained in the .container class
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
   .container {
   max-width: 960px;
   margin: 0 auto;
@@ -121,7 +177,7 @@ header {
   font-weight: 200;
   letter-spacing: 4px;
   margin: 0;
-  
+
 }
 
 .name p {
