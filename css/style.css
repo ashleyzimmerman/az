@@ -243,3 +243,14 @@ footer a {
 }
 
 .blog-post date {}
+  .navigation .dropdown {
+    display: none; // this hides the dropdown menu by default
+  }
+
+/* dropdown for projects nav.*/
+  .navigation a:hover + .dropdown {
+    display: block; // shows the any dropdown that is a direct sibling of a hovered anchor tag in the navigation bar
+  }
+  .dropdown:hover {
+  display: block;
+  }
