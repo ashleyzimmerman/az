@@ -149,6 +149,19 @@ header {
   width: 250px;
   height: auto;
 }
+#blog111 {
+  width: 300px;
+  height: 250px;
+}
+#media111 {
+  width: 250px;
+  height:;auto;
+}
+#projects111 {
+  width: 400px;
+  height:;400px;
+  ;
+}
 
 .contenthead {
   display: flex;
